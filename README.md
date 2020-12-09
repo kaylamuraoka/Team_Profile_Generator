@@ -4,8 +4,6 @@
 
 ## Description
 
-### About the application
-
 This is a standard software engineering team generator command line application that takes in information about your team's employees and generates an HTML web page highlighting the people working for your company, with summaries for each individual. This web page may be useful to a manager so that he/she has quick access to each employee's email and Github profile. On the other hand, this web page can can also be included on a team's website as a "meet the team page" that helps potential customers and clients get to know the people they might be working with.
 
 ### How it works
@@ -30,7 +28,7 @@ One of the most important aspects of programming is writing code that is readabl
 
 ## Installation
 
-Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their Github username.Your app will run as a Node CLI to gather information about each employee. In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.The dependencies are, jest for running the provided tests, and inquirer for collecting input from the user.
+Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their Github username.Your app will run as a Node CLI to gather information about each employee. In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.The dependencies are, [**jest**](https://jestjs.io/) for running the provided tests, and [**inquirer**](https://www.npmjs.com/package/inquirer) for collecting input from the user.
 
 ## Usage
 
