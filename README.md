@@ -51,5 +51,5 @@ You can run the tests at any time with `npm run test`
 
 Please use the contact information below if you would like to reach me with any questions.
 
-Github Profile: [**@kaylamuraoka**](https://github.com/kaylamuraoka)
-Email: [**kmurs98@gmail.com**]
+- Github Profile: [**@kaylamuraoka**](https://github.com/kaylamuraoka)
+- Email: [**kmurs98@gmail.com**]
