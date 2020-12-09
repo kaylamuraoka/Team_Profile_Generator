@@ -28,11 +28,22 @@ One of the most important aspects of programming is writing code that is readabl
 
 ## Installation
 
-Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their Github username.Your app will run as a Node CLI to gather information about each employee. In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.The dependencies are, [**jest**](https://jestjs.io/) for running the provided tests, and [**inquirer**](https://www.npmjs.com/package/inquirer) for collecting input from the user.
+Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their Github username.Your app will run as a Node CLI to gather information about each employee. In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.The dependencies are, [**jest**](https://jestjs.io/) for running the provided tests, and [**inquirer**](https://www.npmjs.com/package/inquirer) for collecting input from the user. To install run the following code
+
+```
+npm install -y  // to install node modules
+npm install jest  // for jest dependencies
+npm install inquirer  // for inquirer dependencies
+```
 
 ## Usage
 
-To use this app, run the app.js file in the project folder. A series of prompts will be generated, answer each question and press enter. This can be invoked by the following command: ` node app.js`
+To use this app, run the app.js file in the project folder. A series of prompts will be generated, answer each question and press enter.
+This can be invoked by the following command:
+
+```
+node app.js
+```
 
 ## License
 
@@ -45,7 +56,11 @@ All comments and suggestions regarding improvements to this project are welcomed
 ## Tests
 
 Testing is a key piece in making code maintainable, thus I have ensured that all unit tests pass.
-You can run the tests at any time with `npm run test`
+You can run the tests at any time with the command:
+
+```
+npm run test
+```
 
 ## Questions
 
