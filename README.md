@@ -17,6 +17,22 @@ The following steps explain how this application works:
 
 One of the most important aspects of programming is writing code that is readable, reliable, and maintainable. Oftentimes, how we design our code is just as important as the code itself.
 
+### Project Directory Structure
+
+My directory structure looks like this:
+
+```
+lib/           // classes and helper code
+output/        // rendered output
+templates/     // HTML template(s)
+test/          // jest tests
+  Employee.test.js
+  Engineer.test.js
+  Intern.test.js
+  Manager.test.js
+app.js         // Runs the application
+```
+
 ## Table of Contents
 
 - [**Installation**](#installation)
@@ -28,10 +44,17 @@ One of the most important aspects of programming is writing code that is readabl
 
 ## Installation
 
-Use the Inquirer npm package to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their Github username.Your app will run as a Node CLI to gather information about each employee. In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.The dependencies are, [**jest**](https://jestjs.io/) for running the provided tests, and [**inquirer**](https://www.npmjs.com/package/inquirer) for collecting input from the user. To install run the following code
+This app runs as a Node CLI, meaning that it runs scripts on the server to render content before it's delivered to a web browser. [**Node.js**](https://nodejs.org/en/download/), which is a run-time environment which includes everything you need to execute a program written in JavaScript. If haven't downloaded the [**Node.js**](https://nodejs.org/en/download/) source code or a pre-built installer for your platform, you will need to do so using this [**link**](https://nodejs.org/en/download/).
+
+The dependencies required for this project are:
+
+- [**jest**](https://jestjs.io/) for running the provided tests
+- [**inquirer**](https://www.npmjs.com/package/inquirer) for collecting input from the user.
+
+To initialize your project and install these required dependencies, open a command prompt at the project's directory and run:
 
 ```
-npm install -y  // to install node modules
+npm init -y  // initialize the project with NPM
 npm install jest  // for jest dependencies
 npm install inquirer  // for inquirer dependencies
 ```
