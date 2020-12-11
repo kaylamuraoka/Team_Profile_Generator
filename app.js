@@ -197,7 +197,7 @@ const init = async () => {
   );
   try {
     // gather the number of employees
-    const answer = await inquirer.prompt(
+    const answer = await inquirer.prompt([
       // prompt to get the total number of employees
       {
         type: "input",
@@ -206,8 +206,8 @@ const init = async () => {
           "How many members are on your team? (don't forget to include yourself)",
         validate: isNumeric,
         filter: formatNumInput,
-      }
-    );
+      },
+    ]);
 
     while (employeesArray.length < answer.numOfEmployees) {
       // gather information about the development team members
