@@ -17,7 +17,7 @@ The following steps explain how this application works:
    ![Demo of getting generated html file](assets/demo_run_app_pt_2.gif)
 
    This is a screenshot of a html page generated from this application:
-   ![Screeenshot_of_html_page](assets/screenshot_of_page.pdf)
+   ![Screeenshot_of_html_page](assets/screenshot_of_page.png)
 
 ### Explanation of Object Oriented Programming Concepts Used
 
