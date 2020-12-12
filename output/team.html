@@ -6,37 +6,129 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>My Team</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./../templates/style.css">
   <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 
 <body>
+  <!-- Header -->
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 jumbotron mb-3 team-heading">
-        <h1 class="text-center">{{ team_name }}</h1>
+        <h1 class="text-center font-weight-bold title">My Team</h1>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="team-area col-12 d-flex justify-content-center">
-        <div class="card employee-card">
-  <div class="card-header">
-    <h2 class="card-title">Sa</h2>
-    <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+
+  <!-- Content Goes Here-->
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 team-area">
+      <div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-dark">
+      <h2 class="card-title employee-name">Steve Rogers</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>1</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:captionamerica@avengers.com">captionamerica@avengers.com</a></li>
+        <li class="list-group-item"><strong>Office number: </strong>1</li>
+      </ul>
+    </div>
   </div>
-  <div class="card-body">
-    <ul class="list-group">
-      <li class="list-group-item">ID: 1</li>
-      <li class="list-group-item">Email: <a href="mailto:dsa">dsa</a></li>
-      <li class="list-group-item">Office number: 1</li>
-    </ul>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-info">
+      <h2 class="card-title employee-name">Tony Stark</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>2</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:ironman@avengers.com">ironman@avengers.com</a></li>
+        <li class="list-group-item"><strong>GitHub: </strong><a href="https://github.com/ironman" target="_blank"
+            rel="noopener noreferrer">ironman</a></li>
+      </ul>
+    </div>
+  </div>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-info">
+      <h2 class="card-title employee-name">Steven Strange</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>3</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:docstrange@avengers.com">docstrange@avengers.com</a></li>
+        <li class="list-group-item"><strong>GitHub: </strong><a href="https://github.com/docstrange" target="_blank"
+            rel="noopener noreferrer">docstrange</a></li>
+      </ul>
+    </div>
+  </div>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-info">
+      <h2 class="card-title employee-name">Bruce Banner</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>4</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:thehulk@avengers.com">thehulk@avengers.com</a></li>
+        <li class="list-group-item"><strong>GitHub: </strong><a href="https://github.com/thehulk" target="_blank"
+            rel="noopener noreferrer">thehulk</a></li>
+      </ul>
+    </div>
+  </div>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-info">
+      <h2 class="card-title employee-name">Thor Odison</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>5</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:thor@avengers.com">thor@avengers.com</a></li>
+        <li class="list-group-item"><strong>GitHub: </strong><a href="https://github.com/thor" target="_blank"
+            rel="noopener noreferrer">thor</a></li>
+      </ul>
+    </div>
+  </div>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-secondary">
+      <h2 class="card-title employee-name">Peter Parker</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>6</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:spideman@avengers.com">spideman@avengers.com</a></li>
+        <li class="list-group-item"><strong>School: </strong>The Midweek School</li>
+      </ul>
+    </div>
+  </div>
+</div><div class="col employee-col mb-3">
+  <div class="card employee-card">
+    <div class="card-header bg-secondary">
+      <h2 class="card-title employee-name">Pepper Potts</h2>
+      <h3 class="card-title employee-role"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>ID: </strong>7</li>
+        <li class="list-group-item"><strong>Email: </strong><a href="mailto:ppotts@avengers.com">ppotts@avengers.com</a></li>
+        <li class="list-group-item"><strong>School: </strong>Iron Man university</li>
+      </ul>
+    </div>
   </div>
 </div>
-      </div>
+
     </div>
   </div>
 </body>
