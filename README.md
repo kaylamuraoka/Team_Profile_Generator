@@ -10,8 +10,11 @@ This is a standard software engineering team generator command line application 
 
 The following steps explain how this application works:
 
-1. A user is prompted for information about their team's manager and members from the Node CLI. He/she can input any number of team members, which may include mix of engineers and interns.
-2. Once the user has completed building their team, or in other words, responded to all the prompts, the application generates an HTML file that displays a nicely formatted team roster based on the information provided by the user.
+1. A user is prompted for information about their team's manager and members from the Node CLI. He/she can input any number of team members, which may include mix of engineers and interns. The following video demonstrates this.
+   ![Demo Gif of inquirer prompts](assets/demo_run_app.gif)
+
+2. Once the user has completed building their team, or in other words, responded to all the prompts, the application generates an HTML file that displays a nicely formatted team roster based on the information provided by the user. The following video demonstrates this.
+   ![Demo of getting generated html file](assets/demo_run_app_pt_2.gif)
 
 ### Explanation of Object Oriented Programming Concepts Used
 
