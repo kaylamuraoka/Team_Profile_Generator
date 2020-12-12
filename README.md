@@ -15,6 +15,7 @@ The following steps explain how this application works:
 
 2. Once the user has completed building their team, or in other words, responded to all the prompts, the application generates an HTML file that displays a nicely formatted team roster based on the information provided by the user. The following video demonstrates this.
    ![Demo of getting generated html file](assets/demo_run_app_pt_2.gif)
+   ![Screeenshot of html page](assets/screenshot_of_page.pdf)
 
 ### Explanation of Object Oriented Programming Concepts Used
 

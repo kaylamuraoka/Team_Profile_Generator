@@ -58,17 +58,12 @@ body {
   .title {
     font-size: 28px;
   }
-  h2 {
-    font-size: 23px;
-  }
   .employee-name {
-    font-size: 21px;
+    font-size: 19px;
   }
-  h4,
   .employee-role {
-    font-size: 15px;
+    font-size: 14px;
   }
-  h5,
   .list-group-item {
     font-size: 12px;
   }
@@ -81,22 +76,13 @@ body {
   .title {
     font-size: 28px;
   }
-  h2 {
-    font-size: 23px;
-  }
-  h3,
   .employee-name {
-    font-size: 22px;
+    font-size: 20px;
   }
-  h4,
   .employee-role {
     font-size: 15px;
   }
-
   .list-group-item {
-    font-size: 12px;
-  }
-  li {
     font-size: 12px;
   }
   .fas {
@@ -108,19 +94,14 @@ body {
   .title {
     font-size: 35px;
   }
-  h2 {
-    font-size: 28px;
-  }
-  h3,
   .employee-name {
-    font-size: 23px;
+    font-size: 22px;
   }
-  h4,
   .employee-role {
     font-size: 17px;
   }
   .list-group-item {
-    font-size: 14px;
+    font-size: 12px;
   }
   .fas {
     font-size: 16px;
@@ -131,19 +112,14 @@ body {
   .title {
     font-size: 35px;
   }
-  h2 {
-    font-size: 28px;
-  }
-  h3,
   .employee-name {
-    font-size: 25px;
+    font-size: 19px;
   }
-  h4,
   .employee-role {
     font-size: 17px;
   }
   .list-group-item {
-    font-size: 14px;
+    font-size: 13px;
   }
   .fas {
     font-size: 18px;
@@ -157,19 +133,14 @@ body {
   .title {
     font-size: 42px;
   }
-  h2 {
-    font-size: 32px;
-  }
-  h3,
   .employee-name {
-    font-size: 28px;
+    font-size: 22px;
   }
-  h4,
   .employee-role {
     font-size: 19px;
   }
   .list-group-item {
-    font-size: 15px;
+    font-size: 13px;
   }
   .fas {
     font-size: 20px;
@@ -183,19 +154,14 @@ body {
   .title {
     font-size: 42px;
   }
-  h2 {
-    font-size: 32px;
-  }
-  h3,
   .employee-name {
-    font-size: 30px;
+    font-size: 23px;
   }
-  h4,
   .employee-role {
-    font-size: 19px;
+    font-size: 20px;
   }
   .list-group-item {
-    font-size: 18px;
+    font-size: 14px;
   }
   .fas {
     font-size: 20px;
